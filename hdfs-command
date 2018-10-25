@@ -1,0 +1,9 @@
+--show all datanodes disk usage
+hadoop dfsadmin -report
+
+--clear trash files
+hadoop dfs -expunge
+
+--show particular folder disk usage
+hadoop dfs -du -s /foldername
+
