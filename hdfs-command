@@ -7,3 +7,8 @@ hadoop dfs -expunge
 --show particular folder disk usage
 hadoop dfs -du -s /foldername
 
+--show folder disk usage in hdfs
+hadoop dfs -du -h /
+
+--show trash disk usage
+hadoop dfs -du -h
